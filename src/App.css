@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-Container{
+
+  height: 100%;
+  width: 100%;
+  min-width: 360px;
+  text-align: center;
+
+}
+.App-header {
+ 
+}
+
+.App-title {
+  background-color: #00008B;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.Map-container {
+
+width:100%;
+}
+
+#map{
+width: 100%;
+height: 850px;
+}
