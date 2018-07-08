@@ -8,10 +8,6 @@
   width: 100%;
   min-width: 360px;
   text-align: center;
-
-}
-.App-header {
- 
 }
 
 .App-title {
@@ -22,12 +18,59 @@
   text-align: center;
 }
 
+/*CSS for Google Map and it's container.*/
 .Map-container {
-
 width:100%;
 }
 
 #map{
 width: 100%;
 height: 850px;
+}
+
+/*CSS for the filter and the subsequent recommendations.*/
+.search {
+    z-index: 10;
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    border: 2px #0000FF solid;
+}
+
+.search-field {
+    width: 320px;
+    padding: 5px;
+}
+
+.button {
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border: 1px #0000FF solid;
+    cursor: pointer;
+    width: 334px;
+}
+
+.box:hover {
+    background-color: #269abc;
+    color: white;
+}
+
+.box {
+    cursor: pointer;
+    padding: 10px;
+}
+
+/*CSS for the results of the query.*/
+ul {
+    background: white;
+    border: 1px solid #0000FF;
+    overflow: auto;
+    padding: 0px;
+    margin: 0;
+    max-height: 600px;
+}
+
+#logoFourSquare{
+  width: 250px;
 }
