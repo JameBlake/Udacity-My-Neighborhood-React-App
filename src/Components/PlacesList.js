@@ -22,12 +22,13 @@ class PlacesList extends Component {
         });
     }
 
+/// If there is a query, my favorite places are filtered. If there is a match, the results are shown.
     filterPlaces(event) {
         this.props.closeInfoWindow();
         const query = event.target.value.toLowerCase();
         var filteredPlaces = [];
         this.props.myPlaces.forEach(function (location) {
-            if (location.placeName.toLowerCase().indexOf(query) >= 0) {
+            if (location.placeName.toLowerCase().startsWith(query)) {
                 location.marker.setVisible(true);
                 filteredPlaces.push(location);
             } else {
