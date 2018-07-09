@@ -1,59 +1,19 @@
 import React, {Component} from 'react';
 import PlacesList from './Components/PlacesList.js';
 import {loadMapJS} from './Components/loadMap.js';
-import {mapStyles} from './Data/mapStyles.js';
+import {locations} from './Data/myLocations.js';
 import {clientId} from './Data/secretKeys.js';
 import {clientSecret} from './Data/secretKeys.js';
 import {googleKey} from './Data/secretKeys.js';
+import {mapStyles} from './Data/mapStyles.js';
 
 class App extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-/// The list of my favorite places.
-            'myPlaces': [
-                {
-                    'title': "Five Guys",
-                    'latitude': 53.7961623,
-                    'longitude': -1.5417112,
-                },
-                {
-                    'title': "Sukhothai",
-                    'latitude': 53.7989752,
-                    'longitude': -1.5475801,
-                },
-                {
-                    'title': "Thai Aroy Dee",
-                    'latitude': 53.7999435,
-                    'longitude': -1.5391458,
-                },
-                {
-                    'title': "Town Hall Tavern",
-                    'latitude': 53.7995209,
-                    'longitude': -1.5512685,
-                },
-                {
-                    'title': "Akbar's",
-                    'latitude': 53.7988805,
-                    'longitude': -1.5382261,
-                },
-                {
-                    'title': "Jamie's Italian",
-                    'latitude': 53.7976018,
-                    'longitude': -1.5472712,
-                },
-                {
-                    'title': "Red's True Barbecue",
-                    'latitude': 53.7957446,
-                    'longitude': -1.5407107,
-                },
-                {
-                    'title': "Belgrave Music Hall and Canteen",
-                    'latitude': 53.8007561,
-                    'longitude': -1.5410204,
-                }
-            ],
+/// import my favorite places.
+            'myPlaces': locations,
             'map': '',
             'infowindow': '',
             'prevmarker': ''
@@ -76,6 +36,7 @@ class App extends Component {
             center: {lat: 53.7988039, lng: -1.5440481},
             zoom: 15,
             mapTypeControl: false,
+/// Imported mapStyles.
             styles:mapStyles,
         });
 
