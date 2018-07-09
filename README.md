@@ -33,11 +33,11 @@ If a marker is selected, details of that place is provided by the Foursqaure API
 
 ### __Resources and Documentation:__
 
-[Foursquare API - Venue Details.](https://developer.foursquare.com/docs/api/venues/details)
-[Foursquare Logo](https://www.dropbox.com/sh/kf7rywth02sba55/AADWM1DWQ3BeJWR3ULEQijMga/Logos/Developer?dl=0)
-Map Styles - acquired from [snazzymaps](https://snazzymaps.com/).
-Personailzed favicon designed at https://www.favicon.cc/.
-[Fullstackreact](https://www.fullstackreact.com/articles/how-to-write-a-google-maps-react-component/) - A fantastic resource to get your head around react and the Google Maps API.
+* [Foursquare API - Venue Details.](https://developer.foursquare.com/docs/api/venues/details)
+* [Foursquare logo](https://www.dropbox.com/sh/kf7rywth02sba55/AADWM1DWQ3BeJWR3ULEQijMga/Logos/Developer?dl=0)
+* Map Styles - acquired from [snazzymaps](https://snazzymaps.com/).
+* Personailzed favicon designed at https://www.favicon.cc/.
+* [Fullstackreact](https://www.fullstackreact.com/articles/how-to-write-a-google-maps-react-component/) - A fantastic resource to get your head around react and the Google Maps API.
 
 
 ## __Contributing__
